@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.header {
+	text-align:center;
+	background-color:#F00;
+}
+
+.header-link {
+	text-align:center;
+	background-color:#FF0;
+}
+
+.left {
+	width:20%;
+	float:left;
+	text-align:left;
+	background-color:#0FF;
+}
+
+.content {
+	width:60%;
+	float:left;
+	text-align:center;
+	background-color:#00F;
+}
+
+.right {
+	width:20%;
+	float:right;
+	text-align:right;
+	background-color:#F0F
+}
+
+.footer {
+	text-align:center;
+	background-color:#0F0;
+}
+
