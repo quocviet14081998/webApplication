@@ -38,8 +38,9 @@ h1 {
 	background-color:red;
 }
 
-.menu a.login {
-	margin-left:300px;
+.menu .login {
+	margin-right: 10px;
+	float: right;
 }
 
 button {
