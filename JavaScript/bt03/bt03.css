@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+
+.main {
+	text-align:center;
+	border:1px solid #00F;
+	width:500px;
+	margin:auto;
+}
+
+table {
+	margin:auto;	
+	background-color:#FF0;
+	margin-bottom:10px;
+}
+
+table tr td {
+	text-align:left;
+}
+
+#ketqua {
+	margin:auto;
+	background-color:#F00;
+	color:#FF0;
+	width:500px;
+	font-size:15px;	
+}
