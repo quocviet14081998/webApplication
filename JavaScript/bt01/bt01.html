@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bài 1 - Tính Tuổi</title>
+<script>
+	function Tinh() {
+		var name = document.getElementById("name").value;
+		var namsinh = parseInt( document.getElementById("namSinh").value);
+		var namhientai = new Date().getFullYear();
+		document.getElementById("kq").innerHTML = "Chào bạn : " + name + "! <br>" + "Tuổi của bạn là: " + (namhientai - namsinh); 
+	}
+</script>
+</head>
+	<table>
+    	<tr>
+        	<td>
+            	<label for="name">Nhập tên của bạn: </label>
+            </td>
+            <td>
+            	<input type="text" id="name" placeholder="Nhập Tên" />
+            </td>
+        </tr>
+        
+        <tr>
+        	<td>
+            	<label for="namSinh">Nhập vào năm sinh: </label>
+            </td>
+            <td>
+            	<input type="number" id="namSinh" placeholder="Nhập Tuổi" />
+            </td>
+        </tr>
+    </table>
+    <input type="button" id="tinhTuoi" onclick="Tinh()" value="Tính Tuổi"/>
+    <p id="kq"></p>
+<body>
+</body>
+</html>
