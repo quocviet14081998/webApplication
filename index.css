@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1920px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+}
+
+.banner {
+    background-color: aquamarine;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4    0px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav {
+    height: 40px;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type:none ;
+    background-color: #6cf;
+}
+
+.nav #menu li {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.nav #menu li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.nav #menu a:hover {
+    background-color: lime;
+    color: magenta;
+}
+
+
+.nav #menu li:hover #submenu {
+    display: block;
+}
+
+.container {
+    min-height: 400px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .left {
+    width: 15%;
+    background-color: dodgerblue;
+}
+
+.left ul {
+    padding-left: 50px;
+}
+
+.left ul li {
+    color: #fff;
+}
+
+.left ul li:hover {
+    color:yellow;
+}
+
+.left ul li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.left ul li a:hover {
+    color:yellow;
+    padding-left: 10px;
+}
+
+.container .right {
+    width: 15%;
+    background-color: dodgerblue;
+}
+
+.container .right div {
+    margin: 15px;
+    background-color: mintcream;
+    width: 80%;
+    height: 100px;
+    border: 3px solid red;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.container .content {
+    width: 70%;
+    background-color: fuchsia;
+    
+}
+
+.container .content>div {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container .content div div {
+    width: 50%;
+    height: 250px;
+    background-color: darkorange;
+    border: 2px double greenyellow;
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+.footer {
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 40px;
+    color: #fff;
+    background-color: #6cf;
+}
