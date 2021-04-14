@@ -101,7 +101,7 @@ body {
     margin: 15px;
     background-color: mintcream;
     width: 80%;
-    height: 100px;
+    height: 150px;
     border: 3px solid red;
     border-radius: 20px;
     text-align: center;
@@ -122,7 +122,7 @@ body {
 
 .container .content div div {
     width: 50%;
-    height: 250px;
+    height: 350px;
     background-color: darkorange;
     border: 2px double greenyellow;
     margin: 2px;
