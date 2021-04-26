@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <link rel="stylesheet" href="bt04.css">
+    <script src="bt04.js"></script>
+</head>
+<body>
+    <form id="myform" onsubmit="return Tinh()">
+        <table>
+            <tr>
+                <th colspan="2">
+                    <h2>CÁC PHÉP TÍNH SỐ HỌC</h2>
+                </th>
+            </tr>
+            <tr>
+                <td> Số thứ 1 </td>
+                <td>
+                    <input type="text" name="txtSo1" value="5">
+                </td>
+            </tr>
+            <tr>
+                <td>Số thứu 2 </td>
+                <td>
+                    <input type="text" name="txtSo2" value="6">
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn các phép toán</td>
+                <td>
+                    <p>
+                        <input type="radio" name="option" value="+" checked > Cộng <br>
+                        <input type="radio" name="option" value="-"> Trừ <br>
+                        <input type="radio" name="option" value="*"> Nhân <br>
+                        <input type="radio" name="option" value="/"> Chia <br>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="btCong" value="Thực Hiện">
+                    <input type="reset" name="btHuy" value="Hủy">
+                </td>
+                <td>
+                    <input type="text" name="kq" >
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
