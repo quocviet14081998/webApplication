@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bài 7</title>
-	<link rel="stylesheet" href="bt07.css">
-	<script src="bt07.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 7</title>
+    <link rel="stylesheet" href="bt07.css">
+    <script src="bt07.js"></script>
 </head>
 <body>
-	<form id="reg" onsubmit="#">
-		<table>
-			<tr>
-				<th colspan="2"> <h2>ĐĂNG KÝ THÀNH VIÊN</h2></tdh>
-			</tr>
-			<tr>
-				<td>Tên đăng nhập</td>
-				<td>
-					<input type="text" name="txtTen">
-				</td>
-			</tr>
-			<tr>
-				<td>Mật Khẩu</td>
-				<td>
-					<input type="password" name="txtPass">
-				</td>
-			</tr>
-			<tr>
-				<td>Ngày sinh</td>
-				<td>
-					<input type="date" name="txtDate">
-				</td>
-			</tr>
-			<tr>
-				<td>Giới Tính</td>
-				<td>
-					<input type="radio" name="gt" checked> Nam
-					<input type="radio" name="gt"> Nữ
-				</td>
-			</tr>
-			<tr>
-				<td>Vấn đề bạn quan tâm</td>
-				<td>
-					<option value="qt">
-						<select value="Kinh Tế">Kinh Tế</select>
-						<select value="Thể Thao">Thể Thao</select>
-						<select value="Văn Học Nghệ Thuật">Văn Học Nghệ Thuật</select>
-					</option>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<input type="submit" value="Đăng ký">
-				</td>
-				<td>
-					<input type="reset" value="Hủy">
-				</td>
-			</tr>
-		</table>
-	</form>
+    <form id="reg" onsubmit="return DangKy()">
+        <table>
+            <tr>
+                <th colspan="2"><h2>ĐĂNG KÝ THÀNH VIÊN</h2></th>
+            </tr>
+            <tr>
+                <td>Tên đăng nhập</td>
+                <td>
+                    <input type="text" name="txtTen" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mật Khẩu</td>
+                <td>
+                    <input type="password" name="txtPass" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ngày Sinh</td>
+                <td>
+                    <input type="date" name="txtNgaysinh">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Giới Tính</td>
+                <td>
+                    <input type="radio" name="gt" value="Nam" checked>Nam
+                    <input type="radio" name="gt" value="Nữ" >Nữ
+                </td>
+            </tr>
+
+            <tr>
+                <td>Vấn đề bạn quan tâm</td>
+                <td>
+                    <select name="qt">
+                        <option value="Kinh tế">Kinh Tế</option>
+                        <option value="Thể Thao">Thể Thao</option>
+                        <option value="Văn học nghệ thuật">Văn Học Nghệ Thuật</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Đăng ký">
+                </td>
+                <td>
+                    <input type="reset" value="Hủy">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <textarea name="thongtin" cols="52" rows="6"></textarea>
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
