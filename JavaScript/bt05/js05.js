@@ -6,5 +6,3 @@ function xoayChu() {
     str2 = str2.substr(1) +str1.substr(0,1);
     document.getElementById("p2").innerHTML = str2;
 }
-function xoayTrai() {
-}
