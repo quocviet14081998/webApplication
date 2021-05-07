@@ -133,6 +133,7 @@ body {
 		align-items: center;
 		margin-bottom: 10px;
         float: left;
+        margin: 10px;
 }
 
 .container .content .col1 div:hover {
@@ -159,6 +160,7 @@ body {
 			align-items: center;
 			margin-bottom: 10px;
             float: left;
+            margin: 10px;
 }
 
 .container .content .col2 div a {

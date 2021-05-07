@@ -116,23 +116,24 @@ body {
 
 .container .content .colSum{
     margin: 10px;
-	display: inline-block;
+    display: inline-block;
 }
 
 .container .content .col1 div{
-        display: inline-block;
-		border: 1px solid black;
-		border-radius: 20px;
-		background-color: red;
-		color: #fff;
-		width: 100px;
-		height: 50px;
-		margin: auto;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 10px;
-        float: left;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    float: left;
+    margin: 10px;
 }
 
 .container .content .col1 div:hover {
@@ -145,19 +146,20 @@ body {
 
 
 .container .content .col2 div{
-        display: inline-block;
-			border: 1px solid black;
-			border-radius: 20px;
-			background-color: red;
-			color: #fff;
-			width: 100px;
-			height: 50px;
-			margin: auto;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-bottom: 10px;
-            float: left;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    float: left;
+    margin: 10px;
 }
 
 .container .content .col2 div a {

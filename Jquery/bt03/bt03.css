@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr td{
+    width: 30%;
+    border: 1px solid #ff751a;
+    padding: 5px;
+    font-size: 2em;
+}
+
+table tr th {
+    border: 1px solid #79ff4d;
+    padding: 5px;
+    background-color: aliceblue;
+    font-size: 4em;
+}
+
+.newBrgd {
+    background-color: #ff0066;
+}
+
+caption {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+button {
+    margin: 10px;
+}
