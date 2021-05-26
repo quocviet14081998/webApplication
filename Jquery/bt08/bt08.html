@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 8</title>
+    <link rel="stylesheet" href="bt08.css">
+</head>
+<body>
+    <di v class="container">
+        <div class="left">
+            <fieldset>
+                <legend>Chọn</legend>
+                <p>
+                    <input type="radio" name="shadow" id="no" checked>Chữ bình thường
+                    <br>
+                    <input type="radio" name="shadow" id="yes">Chữ có bóng<br>
+                </p>
+                <p>
+                    Chọn màu chữ: <input type="color" id="textcolor" value="#0000ff">
+                    <p>
+                        <button id="btDel">Xóa phần tử cuối</button>
+                        <button id="btUndo">Phục hồi</button>
+                    </p>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Click vào một chuỗi</legend>
+                <ol id="list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JQUERY</li>
+                </ol>
+            </fieldset>
+        </div>
+        <div class="right">
+            <p id="view">HTML</p>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="bt08.js"></script>
+</body>
+</html>
